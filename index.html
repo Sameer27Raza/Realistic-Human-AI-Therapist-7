@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080f20">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="mode3.css">
+
+<title>Building a Realistic Human AI Therapist</title>
+
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+
+<nav>
+
+<div class="logo">AI THERAPIST</div>
+
+<div>
+<a href="#about">About</a>
+<a href="#architecture">Architecture</a>
+<a href="#interaction">Interaction</a>
+<a href="#gestures">Hand Gesture</a>
+<a href="#safety">Safety</a>
+<a href="#roadmap">Roadmap</a>
+<a href="#discussion">Discussion</a>
+<a href="#plans">Plans</a>
+<a href="#contact">Contact</a>
+<a href="https://sameer27raza.github.io/Human-AI-Therapist/" target="_blank" rel="noopener noreferrer">Open Website</a>
+</div>
+
+</nav>
+
+
+<!-- HERO -->
+
+<div class="hero">
+
+<div class="badge">RESEARCH SYSTEMS · PROPOSED ARCHITECTURE</div>
+
+<h1>
+Building a <span>Realistic Human</span>
+AI Therapist
+</h1>
+
+<p>
+Multimodal presence, bounded memory,
+and safety-aware interaction design.
+</p>
+
+<a href="#about" class="btn">
+Explore Our Project →
+</a>
+<!-- EARLIER HAND GESTURE WITH WELCOME TAG -->
+<div class="hero-gesture-container">
+    <a href="#gestures" class="hero-gesture photo-hand" aria-label="Explore welcoming hand gestures">
+        <span class="welcome-tag">👋 Welcome</span>
+    </a>
+</div>
+
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<div class="section-label">01 · SYSTEM FRAMING</div>
+
+<h2>Human-like Interaction is a Multimodal Systems Problem</h2>
+
+<p class="description">
+Our AI Therapist aims to provide natural human-like
+communication by coordinating language, voice,
+facial expressions, gaze, posture and hand movements.
+</p>
+
+<div class="grid">
+
+<div class="card">
+<h3>Coordinate the Channels</h3>
+<p>
+Language, voice, face, gaze, posture and hand
+movement must behave as one experience.
+</p>
+</div>
+
+<div class="card">
+<h3>Bound the Interpretation</h3>
+<p>
+Use realism to improve communication without
+implying consciousness or clinical authority.
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ARCHITECTURE -->
+
+<section id="architecture">
+
+<div class="section-label">02 · EXPERIENCE ARCHITECTURE</div>
+
+<h2>Five Synchronized Layers Drive the Experience</h2>
+
+<p class="description">
+The system uses five interconnected layers
+to create a coordinated AI Therapist experience.
+</p>
+
+<div class="architecture">
+
+<div class="layer">01<br>Perception</div>
+
+<div class="layer">02<br>Reasoning</div>
+
+<div class="layer">03<br>Expression</div>
+
+<div class="layer">04<br>Memory</div>
+
+<div class="layer">05<br>Safety</div>
+
+</div>
+
+</section>
+
+
+<!-- INTERACTION -->
+
+<section id="interaction">
+
+<div class="section-label">03 · REAL-TIME INTERACTION</div>
+
+<h2>The Real-Time Loop Turns Speech into Presence</h2>
+
+<p class="description">
+The AI listens to the user, understands the
+conversation, generates a response and
+communicates through voice and expressions.
+</p>
+
+<div class="flow">
+
+<div class="flow-item">
+<h3>🎤 Listen & Transcribe</h3>
+<p>Capture the user's voice.</p>
+</div>
+
+<div class="arrow">↓</div>
+
+<div class="flow-item">
+<h3>🧠 Interpret Intent & Risk</h3>
+<p>Understand the user's message and context.</p>
+</div>
+
+<div class="arrow">↓</div>
+
+<div class="flow-item">
+<h3>💬 Generate Response & Plan</h3>
+<p>Create an appropriate conversational response.</p>
+</div>
+
+<div class="arrow">↓</div>
+
+<div class="flow-item">
+<h3>🔊 Render Voice & Monitor</h3>
+<p>Deliver the response through synchronized voice and avatar expressions.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- HAND GESTURE SECTION -->
+
+<section class="gesture-section" id="gestures">
+
+    <div class="section-title">
+        04 · HUMAN HAND GESTURES
+    </div>
+
+    <h2>Natural Hand Gestures for AI Communication</h2>
+
+    <p class="description">
+        The AI Therapist uses natural human hand movements
+        to express emotions, explain ideas and communicate
+        with users more effectively.
+    </p>
+
+    <div class="gesture-container">
+
+        <div class="gesture-card">
+            <img src="title2.svg"
+                 alt="Open hand gesture">
+
+            <h3>Open Hand Gesture</h3>
+
+            <p>
+                Used for welcoming users and creating
+                a friendly environment.
+            </p>
+        </div>
+
+        <div class="gesture-card">
+            <img src="title4.svg"
+                 alt="Explaining hand gesture">
+
+            <h3>Explaining Gesture</h3>
+
+            <p>
+                Used while explaining ideas and
+                providing helpful information.
+            </p>
+        </div>
+
+        <div class="gesture-card">
+            <img src="title1.svg"
+                 alt="Empathetic hand gesture">
+
+            <h3>Empathetic Gesture</h3>
+
+            <p>
+                Gentle hand movements that support
+                empathetic communication.
+            </p>
+        </div>
+
+        <div class="gesture-card">
+            <img src="title3.svg"
+                 alt="Guidance hand gesture">
+
+            <h3>Guidance Gesture</h3>
+
+            <p>
+                Used to emphasize important points
+                and provide guidance.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SAFETY -->
+
+<section id="safety">
+
+<div class="section-label">05 · CONTROL PLANE</div>
+
+<h2>Safety and Memory Need Their Own Control Plane</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Safety & Memory Control</h3>
+<p>
+Transparent central governance of memory
+and safety controls.
+</p>
+</div>
+
+<div class="card">
+<h3>Crisis Detection</h3>
+<p>
+Detect signals that indicate needs beyond
+the application's scope.
+</p>
+</div>
+
+<div class="card">
+<h3>Escalation Pathways</h3>
+<p>
+Provide region-appropriate support routes.
+</p>
+</div>
+
+<div class="card">
+<h3>Memory Management</h3>
+<p>
+Bounded, inspectable and correctable
+memory management.
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- EVALUATION -->
+
+<section id="evaluation">
+
+<div class="section-label">06 · EVALUATION</div>
+
+<h2>Evaluation Must Measure Trust, Timing and Safe Behavior</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>System</h3>
+<p>
+Latency, transcription quality,
+relevance and interruption recovery.
+</p>
+</div>
+
+<div class="card">
+<h3>Human Factors</h3>
+<p>
+Perceived listening, agency,
+comfort and appropriate trust.
+</p>
+</div>
+
+<div class="card">
+<h3>Safety</h3>
+<p>
+False negatives, false positives,
+escalation quality and consistency.
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ROADMAP -->
+
+<section id="roadmap">
+
+<div class="section-label">07 · DELIVERY STRATEGY</div>
+
+<h2>A Staged Build Keeps Technical and Ethical Risk Visible</h2>
+
+<div class="roadmap">
+
+<div class="roadmap-item">
+<h3>01 · Prototype</h3>
+<p>Voice and text with a simple avatar.</p>
+</div>
+
+<div class="roadmap-item">
+<h3>02 · Express</h3>
+<p>Add gaze, facial expression and constrained gestures.</p>
+</div>
+
+<div class="roadmap-item">
+<h3>03 · Test</h3>
+<p>Introduce memory, safety evaluation and moderated pilots.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- SESSION PLANS -->
+
+<section class="plans-section" id="plans" aria-labelledby="plans-heading">
+    <div class="plans-content">
+        <div class="section-label">08 · YOUR TIME, YOUR PACE</div>
+        <h2 id="plans-heading">A little space to feel heard</h2>
+        <p class="description">
+            Choose the session length that feels right. Each monthly plan includes one session every month.
+        </p>
+
+        <div class="plans-grid">
+            <article class="plan-card">
+                <div class="plan-icon" aria-hidden="true">☀</div>
+                <p class="plan-eyebrow">A gentle check-in</p>
+                <h3>Quick Pause</h3>
+                <p class="plan-duration"><span>10</span> minutes</p>
+                <p class="plan-description">A calm moment to pause, share what's on your mind, and find a little clarity.</p>
+                <div class="plan-price">₹199 <span>/ month</span></div>
+                <ul class="plan-features">
+                    <li>One 10-minute session each month</li>
+                    <li>A welcoming space to reflect</li>
+                    <li>Renews monthly</li>
+                </ul>
+                <a class="plan-button" href="https://api.whatsapp.com/send?phone=919262746293&amp;text=Hi%2C%20I%27d%20like%20to%20subscribe%20to%20the%20monthly%2010-minute%20Quick%20Pause%20plan%20for%20%E2%82%B9199%20per%20month%20(one%20session%20per%20month).">
+                    Choose 10 minutes <span aria-hidden="true">→</span>
+                </a>
+            </article>
+
+            <article class="plan-card plan-card-featured">
+                <div class="plan-ribbon">A lovely balance</div>
+                <div class="plan-icon" aria-hidden="true">✦</div>
+                <p class="plan-eyebrow">A little more room</p>
+                <h3>Open Up</h3>
+                <p class="plan-duration"><span>20</span> minutes</p>
+                <p class="plan-description">More time to explore a thought, untangle a feeling, and consider a next step.</p>
+                <div class="plan-price">₹349 <span>/ month</span></div>
+                <ul class="plan-features">
+                    <li>One 20-minute session each month</li>
+                    <li>More time for thoughtful reflection</li>
+                    <li>Renews monthly</li>
+                </ul>
+                <a class="plan-button" href="https://api.whatsapp.com/send?phone=919262746293&amp;text=Hi%2C%20I%27d%20like%20to%20subscribe%20to%20the%20monthly%2020-minute%20Open%20Up%20plan%20for%20%E2%82%B9349%20per%20month%20(one%20session%20per%20month).">
+                    Choose 20 minutes <span aria-hidden="true">→</span>
+                </a>
+            </article>
+
+            <article class="plan-card">
+                <div class="plan-icon" aria-hidden="true">☾</div>
+                <p class="plan-eyebrow">Space to go deeper</p>
+                <h3>Take Your Time</h3>
+                <p class="plan-duration"><span>30</span> minutes</p>
+                <p class="plan-description">Settle into a longer conversation, reflect at your own pace, and feel less rushed.</p>
+                <div class="plan-price">₹499 <span>/ month</span></div>
+                <ul class="plan-features">
+                    <li>One 30-minute session each month</li>
+                    <li>Room for an unhurried check-in</li>
+                    <li>Renews monthly</li>
+                </ul>
+                <a class="plan-button" href="https://api.whatsapp.com/send?phone=919262746293&amp;text=Hi%2C%20I%27d%20like%20to%20subscribe%20to%20the%20monthly%2030-minute%20Take%20Your%20Time%20plan%20for%20%E2%82%B9499%20per%20month%20(one%20session%20per%20month).">
+                    Choose 30 minutes <span aria-hidden="true">→</span>
+                </a>
+            </article>
+        </div>
+
+        <p class="plans-note">AI-guided conversations are supportive, but are not a substitute for professional mental health care.</p>
+    </div>
+</section>
+
+<!-- DISCUSSION TAB / FORUM -->
+<section id="discussion" aria-labelledby="discussion-heading">
+    <div class="discussion-content">
+        <div class="section-label">COMMUNITY &amp; DIALOGUE</div>
+        <h2 id="discussion-heading">Research &amp; Community Discussions</h2>
+        <p class="description">
+            Exchange ideas with clinicians, researchers, and users on multimodal AI therapy, safety, empathetic design, and ethics.
+        </p>
+
+        <div class="discussion-toolbar">
+            <label class="search-box" for="discussion-search">
+                <span class="search-icon" aria-hidden="true">⌕</span>
+                <input type="search" id="discussion-search" placeholder="Search discussions..." aria-label="Search discussions">
+            </label>
+            <button type="button" class="btn-create-post" id="open-discussion-modal">
+                <span aria-hidden="true">＋</span> Start a discussion
+            </button>
+        </div>
+
+        <div class="discussion-tabs" aria-label="Filter discussions by topic">
+            <button type="button" class="d-tab active" data-category="all" aria-pressed="true">All topics</button>
+            <button type="button" class="d-tab" data-category="multimodal" aria-pressed="false">Multimodal &amp; voice</button>
+            <button type="button" class="d-tab" data-category="safety" aria-pressed="false">Safety &amp; crisis</button>
+            <button type="button" class="d-tab" data-category="clinical" aria-pressed="false">Clinical feedback</button>
+            <button type="button" class="d-tab" data-category="ethics" aria-pressed="false">Ethics &amp; memory</button>
+        </div>
+
+        <div class="discussion-feed" id="discussion-feed" aria-live="polite">
+            <!-- Discussion cards are rendered by JavaScript. -->
+        </div>
+    </div>
+</section>
+
+<!-- Modal for New Discussion -->
+<div class="discussion-modal-overlay" id="discussion-modal" aria-hidden="true">
+    <div class="discussion-modal" role="dialog" aria-modal="true" aria-labelledby="discussion-modal-heading">
+        <div class="modal-header">
+            <div>
+                <div class="section-label">COMMUNITY &amp; DIALOGUE</div>
+                <h3 id="discussion-modal-heading">Start a new discussion</h3>
+            </div>
+            <button type="button" class="close-modal-btn" id="close-discussion-modal" aria-label="Close dialog">&times;</button>
+        </div>
+        <form id="new-discussion-form">
+            <div class="input-group">
+                <label for="post-author">Your name or title</label>
+                <input type="text" id="post-author" placeholder="e.g. Dr. Jane Doe (Clinician) or Anonymous" required>
+            </div>
+
+            <div class="input-group">
+                <label for="post-category">Topic</label>
+                <select id="post-category" required>
+                    <option value="multimodal">Multimodal &amp; voice</option>
+                    <option value="safety">Safety &amp; crisis protocols</option>
+                    <option value="clinical">Clinical feedback</option>
+                    <option value="ethics">Ethics &amp; memory</option>
+            </div>
+
+            <div class="input-group">
+                <label for="post-title">Discussion title</label>
+                <input type="text" id="post-title" placeholder="What would you like to discuss?" required>
+            </div>
+
+            <div class="input-group message-field-shell">
+                <label for="post-content">Your message</label>
+                <div class="voice-toolbar">
+                    <span class="voice-label">Voice</span>
+                    <button type="button" class="voice-toggle" aria-label="Use voice input">🎙️ Speak</button>
+                </div>
+                <textarea id="post-content" rows="4" placeholder="Share your perspective, findings, or question..." required></textarea>
+            </div>
+
+            <div class="modal-actions">
+                <button type="button" class="btn-cancel" id="cancel-discussion-modal">Cancel</button>
+                <button type="submit" class="btn-submit">Publish discussion</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<div class="section-label">09 · CONTACT</div>
+
+<h2>Get in Touch</h2>
+
+<p class="description">
+Have questions or feedback about our AI Therapist research? Reach out directly via WhatsApp.
+</p>
+
+<div class="form-container">
+
+    <form id="contact-form">
+
+    <input type="text"
+           id="name"
+           name="name"
+           placeholder="Your Name"
+           required>
+
+    <input type="email"
+           id="email"
+           name="email"
+           placeholder="Your Email"
+           required>
+
+    <div class="message-field-shell">
+        <div class="voice-toolbar">
+            <span class="voice-label">Voice</span>
+            <button type="button" class="voice-toggle" aria-label="Use voice input">🎙️ Speak</button>
+        </div>
+        <textarea id="message"
+                  name="message"
+                  class="message-input"
+                  placeholder="Write your message"
+                  required></textarea>
+    </div>
+
+    <button type="submit">
+        Send Message
+    </button>
+
+    <p class="form-status" role="status" aria-live="polite"></p>
+
+</form>
+
+</div>
+
+</section>
+
+<script>
+    const form = document.querySelector("#contact-form") || document.querySelector(".form-container form");
+    if (form && !form.dataset.whatsappBound) {
+        form.dataset.whatsappBound = "true";
+        const status = form.querySelector(".form-status");
+
+        form.addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            const name = form.querySelector('[name="name"]').value.trim();
+            const email = form.querySelector('[name="email"]').value.trim();
+            const message = form.querySelector('[name="message"]').value.trim();
+
+            const text = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
+            const whatsappUrl = `https://api.whatsapp.com/send?phone=919262746293&text=${encodeURIComponent(text)}`;
+
+            window.open(whatsappUrl, "_blank");
+
+            if (status) {
+                status.textContent = "Opening WhatsApp...";
+                status.classList.remove("is-error");
+            }
+
+            form.reset();
+        });
+    }
+</script>
+<script src="script.js"></script>
+<script>
+    if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+            navigator.serviceWorker.register("./sw.js").catch((error) => {
+                console.error("Service worker registration failed:", error);
+            });
+        });
+    }
+</script>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<h3>Building a Realistic Human AI Therapist</h3>
+
+<p>
+Multimodal Presence · Human Interaction · Responsible AI
+</p>
+
+<p style="margin-top:15px;">
+© 2026 AI Therapist Project
+</p>
+
+</footer>
+
+</body>
+</html>

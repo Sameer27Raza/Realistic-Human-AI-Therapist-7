@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="title">
+  <title id="title">Open hand gesture</title>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#173d63"/>
+      <stop offset="1" stop-color="#25244d"/>
+    </linearGradient>
+    <linearGradient id="skin" x2="0.8" y2="1">
+      <stop stop-color="#ffd6a5"/>
+      <stop offset="1" stop-color="#ed9b78"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="220" rx="18" fill="url(#bg)"/>
+  <circle cx="252" cy="51" r="34" fill="#55d5ff" opacity=".12"/>
+  <path d="M124 193c-3-18-9-27-23-40l-27-25c-8-8-6-20 2-25 7-5 15-3 21 3l23 22V54c0-11 7-18 17-18s17 7 17 18v59-76c0-11 7-18 17-18s17 7 17 18v76-63c0-11 7-18 17-18s17 7 17 18v72-42c0-10 7-16 16-16s16 7 16 17v48c0 34-17 58-43 72l-8 20h-77z" fill="url(#skin)" stroke="#ffe8cf" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M151 115V64m36 51V50m34 69V68m32 51V96" fill="none" stroke="#d77e68" stroke-width="4" stroke-linecap="round" opacity=".65"/>
+</svg>

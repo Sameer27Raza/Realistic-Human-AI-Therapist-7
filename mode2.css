@@ -1,0 +1,390 @@
+/* GENERAL SETTINGS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #080f20;
+    color: white;
+    line-height: 1.7;
+}
+
+/* NAVBAR */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 7%;
+    background: #101d35;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    color: #55d5ff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #55d5ff;
+}
+
+/* HERO SECTION */
+
+.hero {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+    background:
+    linear-gradient(120deg,
+    rgba(8,15,32,0.9),
+    rgba(30,60,110,0.8));
+}
+
+.hero h1 {
+    font-size: 60px;
+    max-width: 900px;
+}
+
+.hero h1 span {
+    color: #55d5ff;
+}
+
+.hero p {
+    color: #c5d5e8;
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.hero-gesture {
+    display: block;
+    width: clamp(150px, 22vw, 220px);
+    aspect-ratio: 1;
+    margin-top: 38px;
+    background: url("https://cdn.gamma.app/po4yt9osal0y3s1/generated-images/01M6K9Y38167G7ZAKH9VBGT0BN.jpg") center / cover no-repeat;
+    border-radius: 50%;
+    filter: drop-shadow(0 0 18px #55d5ff55);
+    transition: transform 0.3s ease;
+}
+
+.hero-gesture:hover,
+.hero-gesture:focus-visible {
+    transform: translateY(-6px) scale(1.04);
+}
+
+.hero-gesture:focus-visible {
+    outline: 2px solid #55d5ff;
+    outline-offset: 5px;
+}
+
+.btn {
+    margin-top: 30px;
+    padding: 14px 35px;
+    background: linear-gradient(90deg,#168bd5,#7955e8);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 25px #168bd5;
+}
+
+/* SECTIONS */
+
+section {
+    padding: 80px 10%;
+}
+
+.section-title {
+    color: #55d5ff;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+/* CARDS */
+
+.grid {
+    display: grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(230px,1fr));
+    gap: 25px;
+}
+
+.card {
+    background: #14243e;
+    padding: 30px;
+    border-radius: 18px;
+    border: 1px solid #29466c;
+    transition: 0.4s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    border-color: #55d5ff;
+    box-shadow: 0 10px 30px #0005;
+}
+
+.card h3 {
+    color: #55d5ff;
+    margin-bottom: 15px;
+}
+
+/* ARCHITECTURE */
+
+.architecture {
+    display: grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(150px,1fr));
+    gap: 20px;
+}
+
+.layer {
+    padding: 35px 15px;
+    text-align: center;
+    background: linear-gradient(145deg,#173d63,#20254c);
+    border-radius: 15px;
+    border: 1px solid #55d5ff;
+    font-size: 18px;
+}
+
+/* INTERACTION FLOW */
+
+.flow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.flow-item {
+    background: #152d4c;
+    padding: 22px;
+    width: 80%;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid #55d5ff;
+}
+
+.arrow {
+    color: #55d5ff;
+    font-size: 28px;
+}
+
+
+/* HAND GESTURES */
+
+.gesture-section {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.gesture-container {
+    display: grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(230px,1fr));
+    gap: 25px;
+}
+
+.gesture-card {
+    background: #14243e;
+    padding: 20px;
+    border-radius: 18px;
+    border: 1px solid #29466c;
+    transition: 0.3s;
+}
+
+.gesture-card:hover {
+    transform: scale(1.04);
+    border-color: #55d5ff;
+}
+
+.gesture-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.gesture-card h3 {
+    color: #55d5ff;
+    margin-top: 15px;
+}
+
+/* ROADMAP */
+
+.roadmap {
+    border-left: 3px solid #55d5ff;
+    padding-left: 30px;
+}
+
+.roadmap-item {
+    margin-bottom: 35px;
+}
+
+.roadmap-item h3 {
+    color: #55d5ff;
+}
+
+/* FORM */
+
+
+/* Basic page styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #dceef0, #e8e5fa);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+/* Form box */
+
+.form-container {
+    background: white;
+    width: 90%;
+    max-width: 420px;
+
+    padding: 35px;
+    border-radius: 15px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #176b70;
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    text-align: center;
+    color: #666;
+}
+
+/* Input fields */
+
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 13px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #176b70;
+}
+
+/* Submit button */
+
+button {
+    width: 100%;
+    padding: 14px;
+
+    margin-top: 25px;
+
+    background: #176b70;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #104e52;
+}
+
+/* Success message */
+
+#message {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    background: #050b17;
+    padding: 35px;
+    color: #9aadc7;
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media(max-width:768px) {
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .avatar-image {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .flow-item {
+        width: 100%;
+    }
+
+}

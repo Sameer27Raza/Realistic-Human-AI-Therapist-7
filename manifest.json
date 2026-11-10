@@ -1,0 +1,19 @@
+{
+  "id": "./",
+  "name": "Human AI Therapist",
+  "short_name": "AI Therapist",
+  "description": "A research project exploring responsible, human-centered AI therapist interactions.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#080f20",
+  "theme_color": "#080f20",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
